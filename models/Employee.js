@@ -27,6 +27,8 @@ const Employee = sequelize.define('employeedetails', {
     type: DataTypes.STRING,
     allowNull: false
   }
+}, {
+  timestamps: true
 });
 
 export default Employee;
